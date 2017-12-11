@@ -55,7 +55,11 @@ public:
    int dijkstra(int source, int dest);
    int minVertex(int[]);
    
-   ~digraph();
+   ~Digraph() {
+       for(int i = 0; i<vertex.size(); i++) {
+           delete vertex[i];
+       }
+   }
 };
 
 #endif
