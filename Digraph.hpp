@@ -54,6 +54,8 @@ public:
    int isEdge(int source, int dest);
    int dijkstra(int source, int dest);
    int minVertex(int[]);
+   
+   ~digraph();
 };
 
 #endif
