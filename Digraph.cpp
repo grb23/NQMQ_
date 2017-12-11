@@ -2,6 +2,9 @@
 // c. 2017 T. O'Neil
 
 #include "Digraph.hpp"
+#include <climits>
+#include <vector>
+
 
 unsigned int Digraph::noVertices()
 {
